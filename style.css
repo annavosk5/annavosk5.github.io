@@ -27,6 +27,7 @@ th{
 a{
   color: #2F4858;
   text-decoration:underline;
+  cursor: pointer;
 }
 a:hover{
   color:#B554F5;
