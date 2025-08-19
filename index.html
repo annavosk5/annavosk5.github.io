@@ -1,9 +1,169 @@
-html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Basics Cheat Sheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
 <body>
-  <h1>Anna</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1 class="headers"><a href = '#linkTable'>HTML </a> &amp <a href = '#linkTable2'>CSS </a>Cheat Sheet </h1>
+    </header>
+    <h2 class="headers">HTML Tags</h2>
+    <table border = "1" id = 'linkTable'>
+      <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+      </tr>
+      <tr>
+        <td>&lthtml&gt</td>
+        <td>Root Element</td>
+        <td>Wraps the entire HTML document.</td>
+      </tr>
+      <tr>
+        <td>&lthead&gt</td>
+        <td>Head</td>
+        <td>Contains meta information, title, and links to resource links (CSS, fonts, etc.).</td>
+      </tr>
+      <tr>
+        <td>&ltbody&gt</td>
+        <td>Body</td>
+        <td>Contains all content that appears on the page.</td>
+      </tr>
+      <tr>
+        <td>&lttitle&gt</td>
+        <td>Title</td>
+        <td>Sets the browser/window title.</td>
+      </tr>
+      <tr>
+        <td>&lth1&gt to &lth6&gt</td>
+        <td>Headers</td>
+        <td> Define headings and subheadings ranging from h1 to h6 (largest bold text to smallest bold text).</td>
+      </tr>
+      <tr>
+        <td>&ltdiv&gt</td>
+        <td>Division</td>
+        <td>Groups elements together.</td>
+      </tr>
+      <tr>
+        <td>&ltspan&gt</td>
+        <td>Span</td>
+        <td>Inline container used for styling or grouping within text.</td>
+      </tr>
+      <tr>
+        <td>&ltp&gt</td>
+        <td>Paragraph</td>
+        <td>Defines a block of text as a paragraph.</td>
+      </tr>
+      <tr>
+        <td>&ltbr&gt</td>
+        <td>Line Break </td>
+        <td>Inserts a single line break in text (has no closing tag).</td>
+      </tr>
+      <tr>
+        <td> &ltul&gt</td>
+        <td> Unordered List</td>
+        <td> Creates a bulleted list of items. Used when the order does not matter.</td> 
+      </tr>
+      <tr>
+        <td>&ltol&gt</td>
+        <td>Ordered List</td>
+        <td>Creates a numbered list of items. Used when the order does matter.</td>
+      </tr>
+      <tr>
+        <td>&ltli&gt</td>
+        <td>List Item</td>
+        <td>Represents an individual item within an ordered or unordered list.</td>
+      </tr>
+      <tr>
+        <td>&ltimg&gt</td>
+        <td>Image</td>
+        <td>Embeds an image into the page. Requires the src attribute to specify the image file and an optional alt attribute for alternative text.</td>
+      </tr>
+      <tr>
+        <td>&ltvideo&gt</td>
+        <td>Video</td>
+        <td>Embeds a video player. Supports attributes of src, controls, autoplay, and loop.</td>
+      </tr>
+      <tr>
+        <td>&lta&gt</td>
+        <td>Anchor</td>
+        <td>Creates a hyperlink. Requires the href attribute to specify the destination. Additionally supports the target attribute to customize how the link is opened.</td>
+      </tr>
+      <tr>
+        <td>&lt!-- --&gt</td>
+        <td>HTML Comment</td>
+        <td>Adds a developer only comment in the code</td>
+      </tr>
+    </table>
+    <h2 class="headers">CSS Properties</h2>
+    <table border = "1" id = 'linkTable2'>
+      <tr>
+        <th>Property</th>
+        <th>Purpose</th>
+        <th>Common Values</th>
+      </tr>
+      <tr>
+        <td>color</td>
+        <td>Sets the text color.</td>
+        <td>Color names, hex codes, hsl(), and rgb().</td>
+      </tr>
+      <tr>
+        <td>background-color</td>
+        <td>Sets the background color of an element.</td>
+        <td> Color names, hex codes, hsl(), rgb(), and transparent.</td>
+      </tr>
+      <tr>
+        <td>font-size</td>
+        <td>Controls the size of text.</td>
+        <td>unit values such as px,em,rem, and %.</td>
+      </tr>
+      <tr>
+        <td>font-family</td>
+        <td>Defines the typeface used for text</td>
+        <td>Arial, Times New Roman, Serif, 
+           Sans-serif, etc. </td>
+      </tr>
+      <tr>
+        <td>font-weight</td>
+        <td>Sets thickness/boldness of text.</td>
+        <td>normal, bold, numeric value ranging from 1-1000.</td>
+      </tr>
+      <tr>
+        <td>text-align</td>
+        <td>Horizontal alignment of inline text.</td>
+        <td> left, right, center, justify.</td>
+      </tr>
+      <tr>
+        <td>margin</td>
+        <td>Adds space outside an elements border.</td>
+        <td> px, em, %, and auto.</td>
+      </tr>
+      <tr>
+        <td>padding</td>
+        <td>Adds space inside an elements border.</td>
+        <td>px, em, and %.</td>
+      </tr>
+      <tr>
+        <td>border</td>
+        <td>Adds a border around an element.</td>
+        <td> border-width, border-style,  border-color.</td>
+      </tr>
+      <tr>
+        <td>width</td>
+        <td>Sets the horizontal size of an elemen.t</td>
+        <td>px, %, and auto.</td>
+      </tr>
+      <tr>
+        <td>height</td>
+        <td>Sets the vertical size of an element</td>
+        <td>px, %, and auto.</td>
+      </tr>
+    </table>
 </body>
-
 </html>
