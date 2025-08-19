@@ -10,7 +10,7 @@ table{
   font-family: 'work sans', Arial, sans-serif;
 }
 body{
-  background-image: url("coolbackgrounds-gradient-cucumber.png");
+  background-image: url("./coolbackgrounds-gradient-cucumber.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
