@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+table{
+  margin: 10px auto;
+  width: 80%;
+  background-color:white;
+  border: cornflowerblue;
+  font-family: 'work sans', Arial, sans-serif;
+}
+body{
+  background-image: url('coolbackgrounds-gradient-cucumber.png');
+}
+.headers{
+  font-family: 'luckiest guy', Arial, sans-serif;
+  color:#7FA4B8;
+}
+h2{
+  margin-bottom: 15px;
+}
+h1{
+  text-decoration:underline;
+}
+th{
+  background-color:#C6E6FB;
+}
+a{
+  color: #2F4858;
+}
+a:hover{
+  color:#B554F5;
+}
